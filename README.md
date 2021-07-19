@@ -1,17 +1,17 @@
 # Odoo
 
-The Following instructions are compatible with Ubuntu 20.04(recommended) for Odoo 13 Community Version Installation
+The Following instructions are compatible with Ubuntu 20.04(recommended) for Odoo 14 Community Version Installation
 Using Python 3.8.2
 
 Quick Guide:
 ******
 (<>) refers to your personal user name or folders path which varies in different command and settings
-Create a Folder for Odoo 13 Files(We will be working with those v soon)
+Create a Folder for Odoo 14 Files(We will be working with those v soon)
 Create another Folder for Personal Projects
 
 You can use mkdir <folders path> command in the terminal,or create it manually in the  folder
 ******
-It is recommended to work in the working directory of odoo 13 files folder(using cd <folders_path>/) while we are installing these files
+It is recommended to work in the working directory of odoo 14 files folder(using cd <folders_path>/) while we are installing these files
 ******
 
 
@@ -135,7 +135,7 @@ pip3 install python-ldap
 
 Done with the installation Phase,Now for the Setup-
 
-in the venv ,go to the odoo13 folder and run - python odoo-bin
+In the venv ,go to the odoo14 folder and run - python odoo-bin
 
 Go to http://localhost:8069/ 
 
