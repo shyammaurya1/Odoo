@@ -107,11 +107,11 @@ su odoo13
 
 
 
-Step - 8: Clone Odoo 13 files from Odoo
+Step - 8: Clone Odoo 14 files from Odoo
 -----------------------------------------------------------
 git clone https://github.com/odoo/odoo.git --depth 1 --branch 13.0 --single-branch odoo13
 
-#Step - 11 : Virtual Environemnt
+>> Virtual Environemnt
 
 virtualenv -p python3.8 env
 source env/bin/activate
