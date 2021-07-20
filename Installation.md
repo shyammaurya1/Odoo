@@ -3,17 +3,6 @@
 The Following instructions are compatible with Ubuntu 20.04(recommended) for Odoo 14 Community Version Installation
 Using Python 3.8.2
 
-Quick Guide:
-******
-(<>) refers to your personal user name or folders path which varies in different command and settings
-Create a Folder for Odoo 14 Files(We will be working with those v soon)
-Create another Folder for Personal Projects
-
-You can use mkdir <folders path> command in the terminal,or create it manually in the  folder
-******
-It is recommended to work in the working directory of odoo 14 files folder(using cd <folders_path>/) while we are installing these files
-******
-
 
 
 <H>Step 1 : Update Server</H>
@@ -99,9 +88,9 @@ sudo apt-get update
 sudo apt-get install wkhtmltopdf 
 
 **create user for wkhtmltopdf**
-useradd -m -g sudo -s /bin/bash odoo13
-passwd odoo13
-su odoo13
+useradd -m -g sudo -s /bin/bash odoo14
+passwd odoo14
+su odoo14
 
 
 
