@@ -10,7 +10,7 @@ copy this folder's(custom)path.
 
 open odoo.conf
 
-<h>step 4</h1>
+<h1>step 4</h1>
 
 Paste the path in odoo.conf as : 
 addons path = "Custom folder's path"
