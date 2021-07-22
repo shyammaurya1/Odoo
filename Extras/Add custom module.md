@@ -19,4 +19,14 @@ addons path = "Custom folder's path"
 
 Restart the odoo service
 >>To stop : sudo systemctl stop odoo.service
+<br></br>
 >>To start : sudo systemctl start odoo.service
+
+<h1>step 6</h1>
+Go to Update apps option, click on update
+
+<h1>step 7</h1>
+search for modules in search section
+
+
+
