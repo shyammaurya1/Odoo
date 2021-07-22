@@ -10,7 +10,7 @@ Open folder "om_hospital"
 create a file as "__manifest__.py "
 write details of your module in this format : 
 
-# -*- coding: utf-8 -*-
+ -*- coding: utf-8 -*-
 {
     'name': 
     'version': 
