@@ -18,5 +18,5 @@ addons path = "Custom folder's path"
 <h1>step 5</h1>
 
 Restart the odoo service
-To stop : sudo service odoo-server stop
-To start : sudo service odoo-server start
+>>To stop : sudo systemctl stop odoo.service
+>>To start : sudo systemctl start odoo.service
