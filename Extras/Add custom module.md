@@ -26,7 +26,7 @@ Restart the odoo service
 Go to Update apps option, click on update
 
 <h1>step 7</h1>
-search for modules in search section
+search for your module in search section
 
 
 
