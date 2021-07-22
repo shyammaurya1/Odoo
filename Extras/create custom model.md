@@ -18,18 +18,18 @@ write details of your module in this format :
     'version': <br></br>
     'summary': <br></br>
     'sequence': <br></br>
-    'description': <br><br></br><br></br></br>
-    'category': <br></br> <br></ <br></br>br>
-    'author': <br></br><br></br><br></br>
-    'maintainer': <br></br><br></br><br></br>
-    'website': <br></br> <br></br><br></br>
-    'license': <br></br><br></br><br></br>
-    'depends': <br></br> <br></br><br></br>
-    'data': <br></br><br></br>
-    'demo': <br></br><br></br>
-    'qweb': <br></br><br></br>
-    'images': <br></br><br></br>
-    'installable': <br></br><br></br>
+    'description': <br></br>
+    'category': <br></br> 
+    'author': <br></br>
+    'maintainer': <br></br>
+    'website': <br></br>
+    'license': <br></br>
+    'depends': <br></br>
+    'data': <br></br>
+    'demo': <br></br>
+    'qweb': <br></br>
+    'images': <br></br>
+    'installable': <br></br>
     'application': <br></br>
     'auto_install': <br></br>
 }
