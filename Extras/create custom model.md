@@ -8,31 +8,34 @@ Again create a new folder name it as "om_hospital"
 <h1> step 3 </h1>
 Open folder "om_hospital"
 create a file as "__manifest__.py "
-write details of your module in this format : 
 
+write details of your module in this format : 
+<br></br>
  -*- coding: utf-8 -*-
+ <br></br>
 {
-    'name': 
-    'version': 
-    'summary':
-    'sequence':
-    'description':
-    'category': 
-    'author': 
-    'maintainer':
-    'website': 
-    'license': 
-    'depends':
-    'data': 
-    'demo':
-    'qweb': 
-    'images': 
-    'installable': 
-    'application': 
-    'auto_install': 
+    'name': <br></br>
+    'version': <br></br>
+    'summary': <br></br>
+    'sequence': <br></br>
+    'description': <br><br></br><br></br></br>
+    'category': <br></br> <br></ <br></br>br>
+    'author': <br></br><br></br><br></br>
+    'maintainer': <br></br><br></br><br></br>
+    'website': <br></br> <br></br><br></br>
+    'license': <br></br><br></br><br></br>
+    'depends': <br></br> <br></br><br></br>
+    'data': <br></br><br></br>
+    'demo': <br></br><br></br>
+    'qweb': <br></br><br></br>
+    'images': <br></br><br></br>
+    'installable': <br></br><br></br>
+    'application': <br></br>
+    'auto_install': <br></br>
 }
 
-(To set a logo/icon image for module)
+
+>>(To set a logo/icon image for module)
 <h1> step 4 </h1>
 create a folder as "static" in custom directory
 create a folder as "description" in "static" directory.
