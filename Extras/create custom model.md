@@ -46,7 +46,7 @@ paste the "png" image in description folder.
 <h1> step 6 </h1>
 Restart the server
 
-further to add,follow this  : https://github.com/shyammaurya1/Odoo/blob/main/Extras/Add%20custom%20module.md
+further, follow this  : https://github.com/shyammaurya1/Odoo/blob/main/Extras/Add%20custom%20module.md
 
 
 
