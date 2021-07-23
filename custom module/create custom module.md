@@ -3,10 +3,10 @@ Create a folder, let us name it as "custom"
 
 <h1> Step 2 </h1>
 Open folder "custom"
-Again create a new folder name it as "om_hospital"
+Again create a new folder name it as "test1"
 
 <h1> step 3 </h1>
-Open folder "om_hospital"
+Open folder "test1"
 create a file as "__manifest__.py "
 
 write details of your module in this format : 
