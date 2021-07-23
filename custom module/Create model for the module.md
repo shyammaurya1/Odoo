@@ -60,6 +60,7 @@ class Hperson(models.Model):
 
 <h1> step 10 </h1>
 Restart the server
+<br></br>
 Update the module
 
 
