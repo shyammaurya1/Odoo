@@ -5,11 +5,14 @@ Click on "Become Superuser"
 
 <h1> Step2 </H1>
 (Backend)
+<br></br>
 Open module folder (custom)
+<br></br>
 Create a folder as "security"
 
 <h1>Step 3</h1>
 Create a file as as "ir.model.csv"
+<br></br>
 write into this as : 
 
 ```
@@ -27,6 +30,7 @@ Restart the server
 
 <h1> Step 6</h1>
 (Frontend)
+<br></br>
 Update/Upgrade the module
 
 <h1> Step 7</h1>
