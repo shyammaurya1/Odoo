@@ -3,65 +3,64 @@ We are continuing from this step : https://github.com/shyammaurya1/Odoo/blob/mai
 (Go through it if you have not gone through it yet!)
 
 <h1> Step 2 </h1>
-Create a file in test directory as "__init__.py">
+crete a file as "__init__.py" in test directory
+write in this file as : 
+
+```
+from . import models
+```
+
+<h1> Step 3 </h1>
+Create a directory as 'models' in 'test' directory 
+create a file in models directory as '__init__.py'
 write in this file as  : 
 
 ```
 from . import person
 ```
 
-<h1> Step 3 </h1>
-Create a file as "person.py"
+<h1> Step 4 </h1>
+Create a file as "person.py" in models directory
 write in this file as : 
 
 ```
-from odoo import models
+# -*- coding: utf-8 -*-
+from odoo import api, fields, models
 
-class Hperson(models.Model):
-      _name = 'h.person'
-      _description = 'h.record'
+class HospitalPatient(models.Model):
+    _name = "hospital.patient"
+    _description = "Hospital Patient"
+
+    name = fields.Char(string='Account Type', required=True, translate=True)
+    age = fields.Integer(string='Age')
+    gender = fields.Selection([
+        ('male', 'Male'),
+        ('female', 'Female'),
+        ('other', 'other'),
+    ], required=True, default='male')
+    note = fields.Text(string='Description')
+
 ```
 
-<h1> Step 4 </h1>
+<h1> Step 5 </h1>
 Restart the server!
 
-<h1> Step 5 </h1>
-Click on update app list
-Search for your module in search section
-
 <h1> Step 6 </h1>
-Install the module.
+Click on update app list
+Upgrade the module 
+Install it if not installed yet.
+
 
 (Check if the model is created or not)
-<h1> Step 7 </h1>
+<h1> Step  </h1>
 Go to settings
 click on technical, you will find "models" option under database structure
 
 <h1> Step 8 </h1>
-search for person
-(you will find model for person got created)
+search for hospital
+(you will find model for hospital got created)
 
-(For defining fields)
-<h1> Step 9 </h1>
 
-```
-from odoo import models, fields
-
-class Hperson(models.Model):
-      _name = 'h.person'
-      _description = 'h.record'
-      
-      person_name = fields.Char(string = 'Name', required = True)
-      person_age = fields.Integer('Age')
-      notes = fields.Text(string = 'Notes')
-      image = fields.binary(string = 'Image')
-      
-```
-
-<h1> step 10 </h1>
-Restart the server
-<br></br>
-Update the module
 
 
 
