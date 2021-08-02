@@ -1,3 +1,6 @@
+By giving access rights, module will be displayed in the menu section.
+
+
 <H1> Step 1 </H1>
 Enable superuser mode
 Click on Debug icon(Devloper tools)
