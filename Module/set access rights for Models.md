@@ -3,7 +3,7 @@ By giving access rights, module will be displayed in the menu section.
 
 <H1> Step 1 </H1>
 Enable superuser mode
-Click on Debug icon(Devloper tools)
+Click on Debug icon(Developer tools)
 Click on "Become Superuser"
 
 <h1> Step2 </H1>
@@ -11,7 +11,7 @@ Click on "Become Superuser"
 <br></br>
 Open module folder (custom)
 <br></br>
-Create a folder as "security"
+Create a directory as "security"
 
 <h1>Step 3</h1>
 Create a file as as "ir.model.csv"
@@ -26,7 +26,7 @@ access_hospital_patient,access.hospital.patient,model_hospital_patient,,1,1,1,1
 Add this file path in "__manifest__.py" as
 
 ```
-'data' : 'security/ir.model.csv','person.xml',
+'data' : 'security/ir.model.access.csv','person.xml',
 ```
 <h1> Step 5 </h1>
 Restart the server
@@ -41,6 +41,12 @@ go to settings->technical, click on access rights under security
 
 <h1> Step 8</h1>
 Check the access right by searching by module name in search section.
+here, search as "access.hospital.patient"
+
+<h1> Step 9</h1>
+check in menu, you can see your module name as submenu
+<br></br>
+If you want to remove it from menu, archive it!
 
 
 
